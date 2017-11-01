@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <rss version="2.0">
+      <channel>
+        <title>Nikolai Garmash's Blog</title>
+        <description>Articles about frontend development, design and UI stuff in general</description>
+        <link>https://nikgarmash.com</link>
+        <language>en</language>
+        
+    <item>
+      <title>Tip to Save Your Eyes</title>
+      <author>Nikolai Garmash</author>
+      <pubDate>August 21, 2017</pubDate>
+      <guid>increase-your-font-size</guid>
+      <link>https://nikgarmash.com/posts/increase-your-font-size/increase-your-font-size.html</link>
+    </item>
+  
+    <item>
+      <title>Process Exit Status</title>
+      <author>Nikolai Garmash</author>
+      <pubDate>August 10, 2017</pubDate>
+      <guid>process-exit-status</guid>
+      <link>https://nikgarmash.com/posts/process-exit-status/process-exit-status.html</link>
+    </item>
+  
+      </channel>
+    </rss>
+  
