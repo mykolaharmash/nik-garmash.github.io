@@ -1,27 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <rss version="2.0">
-      <channel>
-        <title>Nikolai Garmash's Blog</title>
-        <description>Articles about frontend development, design and UI stuff in general</description>
-        <link>https://nikgarmash.com</link>
-        <language>en</language>
-        
+
+<rss version="2.0">
+  <channel>
+    <title>Nikolay Garmash's Blog</title>
+    <description>Articles about frontend development, design and UI stuff in general</description>
+    <link>https://nikgarmash.com</link>
+    <language>en</language>
+
     <item>
-      <title>Tip to Save Your Eyes</title>
-      <author>Nikolai Garmash</author>
-      <pubDate>August 21, 2017</pubDate>
-      <guid>increase-your-font-size</guid>
-      <link>https://nikgarmash.com/posts/increase-your-font-size/increase-your-font-size.html</link>
-    </item>
-  
-    <item>
-      <title>Process Exit Status</title>
-      <author>Nikolai Garmash</author>
-      <pubDate>August 10, 2017</pubDate>
-      <guid>process-exit-status</guid>
-      <link>https://nikgarmash.com/posts/process-exit-status/process-exit-status.html</link>
-    </item>
-  
-      </channel>
-    </rss>
-  
+  <title>Tip to Save Your Eyes</title>
+  <link>https://nikgarmash.com/articles/increase-your-font-size</link>
+  <description>&lt;p class=&quot;article__paragraph&quot;&gt;This may seem a bit controversial, but I want to encourage you to fit less information on a screen. As we are, developers, often tend to do right the opposite.&lt;/p&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;I&#39;m talking about font size in your IDE or text editor, whatever you prefer. &lt;/p&gt;
+&lt;h2 class=&quot;article__section-title&quot;&gt;12, 13, 14 pixels are too small&lt;/h2&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;Developers around me mostly use font sizes from 12 to 14 pixels.&lt;/p&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;Those are very small fonts for a people who stare at letters most of the day. Even for ones with perfect sight, which is a rare case in our profession, I would really suggest increasing font sizes.&lt;/p&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;You&#39;re making pretty big effort processing those symbols and you definitely don&#39;t want to have any extra strain to read them.&lt;/p&gt;
+&lt;h2 class=&quot;article__section-title&quot;&gt;Bigger font makes a real difference&lt;/h2&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;I personally switched from 12px to 16px about a month ago and I feel the difference literally every single day I go home from work. I feel much less tired, my head is not &quot;heavy&quot; as usual — feelings which I thought are normal after a day in front of a screen. They&#39;re not.&lt;/p&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;Here is a side-by-side view of my IDE with old and new configuration.&lt;/p&gt;
+&lt;img class=&quot;article-image&quot; type=&quot;fullscreen&quot; src=&quot;./ide.png&quot; alt=&quot;Side-by-side view of WebStorm IDE with 12px and 16px font sizes&quot;/&gt;
+
+&lt;p class=&quot;article__paragraph&quot;&gt;Do I give up much extra space? Not really. I still have my 80 characters within a line and vertical scrolling is not a problem at all as I mostly navigate through code by jumping to specific places with a search.&lt;/p&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;Of course, don&#39;t forget about other text-based interfaces, like terminal and browser&#39;s developer tools. Here are side-by-side views of those.&lt;/p&gt;
+&lt;img class=&quot;article-image&quot; type=&quot;fullscreen&quot; src=&quot;./terminal.png&quot; alt=&quot;Side-by-side view of iTerm 2 with 12px and 16px font sizes&quot;/&gt;
+
+&lt;img class=&quot;article-image&quot; type=&quot;fullscreen&quot; src=&quot;./devtools.png&quot; alt=&quot;Side-by-side view of Chrome Developer Tools with 12px and 16px font sizes&quot;/&gt;
+
+&lt;p class=&quot;article__paragraph&quot;&gt;If you have an external monitor, which usually further away from you, go ahead and make fonts even bigger.&lt;/p&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;At first, such giant characters may seem childish, give it a couple of hours, you&#39;ll get used to it very quickly.&lt;/p&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;Try using the bigger font at least for a week and then switch back to your previous size. Feel how much strain it takes to read anything and then think that you had been doing this to your eyes for years. Switch back immediately😀&lt;/p&gt;
+&lt;h2 class=&quot;article__section-title&quot;&gt;Some More on Legibility Topic&lt;/h2&gt;
+&lt;ul class=&quot;article__unordered-list&quot;&gt;
+&lt;li class=&quot;article__list-item&quot;&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2011/10/16-pixels-body-copy-anything-less-costly-mistake&quot;&gt;16 Pixels Font Size: For Body Copy. Anything Less Is A Costly Mistake&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;article__list-item&quot;&gt;&lt;a href=&quot;http://blog.usabilla.com/8-guidelines-for-better-readability-on-the-web&quot;&gt;Tips for Better Readability&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+  <author>Nikolay Garmash</author>
+  <guid>increase-your-font-size</guid>
+  <pubDate>August 21, 2017</pubDate>
+  <source url="https://nikgarmash.com/rss.xml">Tip to Save Your Eyes</source>
+</item>
+
+<item>
+  <title>Process Exit Status</title>
+  <link>https://nikgarmash.com/articles/process-exit-status</link>
+  <description>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/github.min.css&quot;/&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;Small tip to make your bash shell experience a bit better.&lt;/p&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;There is a nice way to stop being confused when you run a command and it finishes silently.&lt;/p&gt;
+&lt;img class=&quot;article-image&quot; type=&quot;default&quot; src=&quot;./no-clue.png&quot; alt=&quot;Process exited without any message what happened&quot;/&gt;
+
+&lt;p class=&quot;article__paragraph&quot;&gt;What just happened? Did it fail? Did it do the job but just haven&#39;t written any message? Mystery.&lt;/p&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;To fix it you can write an exit code right after a command output if
+the code was not zero.&lt;/p&gt;
+&lt;img class=&quot;article-image&quot; type=&quot;default&quot; src=&quot;./now-i-see.png&quot; alt=&quot;Showing exist code after command output&quot;/&gt;
+
+&lt;p class=&quot;article__paragraph&quot;&gt;If you are using some popular theme for &lt;a href=&quot;https://github.com/Bash-it/bash-it&quot;&gt;Bash-it&lt;/a&gt; you probably have this solved already. If not, you&#39;re going to need &lt;code class=&quot;inline-code-block&quot;&gt;PROMPT_COMMAND&lt;/code&gt; environment variable.&lt;/p&gt;
+&lt;h2 class=&quot;article__section-title&quot;&gt;How To&lt;/h2&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;Add new function to your &lt;inline-code&gt;.bash_profile&lt;/inline-code&gt;&lt;/p&gt;
+&lt;pre class=&quot;code-block&quot;&gt;&lt;code class=&quot;code-block__code&quot;&gt;&lt;span class=&quot;code-block__line&quot;&gt;&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;show_exit_code&lt;/span&gt;&lt;/span&gt;() {&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;    &lt;span class=&quot;hljs-built_in&quot;&gt;local&lt;/span&gt; ex=$?&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;    &lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;    &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; [ &lt;span class=&quot;hljs-variable&quot;&gt;$ex&lt;/span&gt; -ne 0 ]&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;    &lt;span class=&quot;hljs-keyword&quot;&gt;then&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;        &lt;span class=&quot;hljs-built_in&quot;&gt;echo&lt;/span&gt; -e &lt;span class=&quot;hljs-string&quot;&gt;&quot;\\033[0;31m&lt;span class=&quot;hljs-variable&quot;&gt;$ex&lt;/span&gt;\\033[0m&quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;    &lt;span class=&quot;hljs-keyword&quot;&gt;fi&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p class=&quot;article__paragraph&quot;&gt;The function saves exit code of the last executed command and then writes it in red color if the code is not zero.&lt;/p&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;Now add this function call into &lt;inline-code&gt;PROMPT_COMMAND&lt;/inline-code&gt; variable&lt;/p&gt;
+&lt;pre class=&quot;code-block&quot;&gt;&lt;code class=&quot;code-block__code&quot;&gt;&lt;span class=&quot;code-block__line&quot;&gt;&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;show_exit_code&lt;/span&gt;&lt;/span&gt;() {&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;    &lt;span class=&quot;hljs-built_in&quot;&gt;local&lt;/span&gt; ex=$?&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;    &lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;    &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; [ &lt;span class=&quot;hljs-variable&quot;&gt;$ex&lt;/span&gt; -ne 0 ]&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;    &lt;span class=&quot;hljs-keyword&quot;&gt;then&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;        &lt;span class=&quot;hljs-built_in&quot;&gt;echo&lt;/span&gt; -e &lt;span class=&quot;hljs-string&quot;&gt;&quot;\\033[0;31m&lt;span class=&quot;hljs-variable&quot;&gt;$ex&lt;/span&gt;\\033[0m&quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;    &lt;span class=&quot;hljs-keyword&quot;&gt;fi&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;code-block__line&quot;&gt; &lt;/span&gt;
+&lt;mark class=&quot;code-block__highlighted-line&quot;&gt;PROMPT_COMMAND=&lt;span class=&quot;hljs-string&quot;&gt;&quot;show_exit_code;&lt;span class=&quot;hljs-variable&quot;&gt;$PROMPT_COMMAND&lt;/span&gt;&quot;&lt;/span&gt;&lt;/mark&gt;&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p class=&quot;article__paragraph&quot;&gt;Bash will execute string inside the variable like a command right before displaying new prompt.&lt;/p&gt;
+&lt;p class=&quot;article__paragraph&quot;&gt;Now, open new terminal tab or re-read bash configuration with a command:&lt;/p&gt;
+&lt;pre class=&quot;code-block&quot;&gt;&lt;code class=&quot;code-block__code&quot;&gt;&lt;span class=&quot;code-block__line&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;source&lt;/span&gt; ~/.bash_profile&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;h2 class=&quot;article__section-title&quot;&gt;Links&lt;/h2&gt;
+&lt;ul class=&quot;article__unordered-list&quot;&gt;
+&lt;li class=&quot;article__list-item&quot;&gt;&lt;a href=&quot;https://github.com/Bash-it/bash-it&quot;&gt;Set of plugins, completions and themes for Bash&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;article__list-item&quot;&gt;&lt;a href=&quot;https://github.com/nik-garmash/bash-it/blob/349de3049b9f886285bc8d5f581ca41b2bbd50a5/themes/bakke/bakke.theme.bash&quot;&gt;My Bash-it theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+  <author>Nikolay Garmash</author>
+  <guid>process-exit-status</guid>
+  <pubDate>August 10, 2017</pubDate>
+  <source url="https://nikgarmash.com/rss.xml">Process Exit Status</source>
+</item>
+
+
+  </channel>
+</rss>
